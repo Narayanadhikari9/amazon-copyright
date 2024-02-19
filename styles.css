@@ -115,13 +115,57 @@ spam {
   font-size: 2rem;
 }
 
-.menu {
-  width: 800px;
-  height: 50px;
-  background-color: rgba(0, 0, 0, 0.895);
-  font-size: 1rem;
+.menu-bar {
+  height: 40px;
+  background-color: #222f3d;
   color: white;
   display: flex;
   align-items: center;
-  
+  justify-content: space-evenly;
+}
+
+.menu {
+  height: 40px;
+  width: 60px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second-navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline;
+  justify-content: space-evenly;
+  margin-left: 20px;
+}
+
+.second-navbar {
+  width: 75%;
+}
+
+.sale a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 40px;
+  width: 200px;
+}
+
+.sale a:hover {
+  background-color: black;
+  color:royalblue
+}
+
+.second-navbar a:hover {
+  background-color: black;
+  color:royalblue
+}
+
+.hero {
+  background-image: url("ps5-controller.jpg");
+  height: 00px;
+  background-size: cover;
 }
