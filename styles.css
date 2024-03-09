@@ -281,6 +281,11 @@ spam {
   margin-top: 1rem;
 }
 
+div a {
+  display: block;
+  margin-bottom: 10px; /* Adjust the margin-bottom as needed */
+}
+
 .footer-amazon-logo {
   height: 70px;
   display: flex;
